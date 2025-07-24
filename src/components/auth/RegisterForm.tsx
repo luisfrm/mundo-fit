@@ -59,7 +59,7 @@ export function RegisterForm() {
             <Separator className="w-full" />
           </div>
           <div className="relative flex justify-center text-xs uppercase">
-            <span className="bg-background px-2 text-muted-foreground">O regístrate con</span>
+          <span className="bg-background px-2 py-1 rounded-md text-muted-foreground">O regístrate con</span>
           </div>
         </div>
 
@@ -96,8 +96,10 @@ export function RegisterForm() {
         <div className="text-center text-sm">
           <span className="text-muted-foreground">¿Ya tienes una cuenta? </span>
           <Button variant="link" className="p-0 h-auto font-normal">
-            Iniciar Sesión
-          </Button>
+					  <Link href="/login">
+						  Iniciar Sesión
+					  </Link>
+				  </Button>
         </div>
       </CardContent>
     </Card>

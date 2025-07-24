@@ -1,5 +1,5 @@
-import { Navigation } from "@/components/home/Navigation"
-import { HeroSection } from "@/components/home/HeroSection"
+import { Navigation } from "@/components/home/navigation"
+import { HeroSection } from "@/components/home/hero-section"
 import { StatsSection } from "@/components/home/stats-section";
 import { FeaturesSection } from "@/components/home/features-section";
 import { HowItWorksSection } from "@/components/home/how-it-works-section";
